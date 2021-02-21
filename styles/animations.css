@@ -1,0 +1,15 @@
+/*The animation has:
+ property name | duration | timing function | delay | iteration-count | direction | fill-mode;
+*/
+.animation {
+  animation: change-size 0.5s ease-in-out 0.1s 2 forwards;
+}
+
+@keyframes change-size {
+  from {
+    max-width: 100px;
+  }
+  to {
+    max-width: 150px;
+  }
+}

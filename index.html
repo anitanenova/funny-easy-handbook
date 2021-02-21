@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/transformations.css" />
+    <link rel="stylesheet" href="styles/transitions.css">
+    <link rel="stylesheet" href="styles/animations.css">
 
     <title>CSS Transitions, Animations and Transformations Handbook</title>
 </head>
@@ -120,13 +122,48 @@
         <!-- End skew examples -->
         <!-- End transformations examples -->
 
+        <div class="border-horizontal"></div>
+
+        <!-- Start transitions and animations examples -->
+        <h2 class="title">Transitions and animations</h2>
+        <section>
+            <!-- Start transition example -->
+            <article>
+                <h3>Change the width</h3>
+                <div class="image-wrapper">
+                    <img class="ruler transitioned-ruler" src="images/ruler.png" alt="ruler" />
+                </div>
+                <button class="transition-button">Let's change it</button>
+            </article>
+            <!-- End transition example -->
+
+            <!-- Start animation example -->
+            <article>
+                <h3>Change the width with animation</h3>
+                <div class="image-wrapper">
+                    <img class="ruler animated-ruler" src="images/ruler.png" alt="ruler" />
+                </div>
+                <button class="animation-button">Let's change it</button>
+            </article>
+            <!-- End animation example -->
+        </section>
+        <!-- End transitions and animations examples -->
+
+        <div class="border-horizontal"></div>
+
+        <!-- Description -->
+        <section class="description">
+            <img src="images/cat-two.png" alt=cat />
+
+            <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel
+                    perfect</a>
+                from
+                <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            </div>
+        </section>
     </div>
-    <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel
-            perfect</a>
-        from
-        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-    </div>
-    <script src="./js/transformations.js"></script>
+
+    <script src="index.js"></script>
 </body>
 
 </html>

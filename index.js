@@ -73,6 +73,24 @@ skewYButton.addEventListener("click", function () {
 
 // End skew examples js
 
+// Start transition example
+const transitionButton = document.querySelector(".transition-button");
+
+transitionButton.addEventListener("click", function () {
+  trigger(".transitioned-ruler", transitionButton, "transition", "change");
+});
+
+//End transition example
+
+//Start animation example
+const animationButton = document.querySelector(".animation-button");
+
+animationButton.addEventListener("click", function () {
+  trigger(".animated-ruler", animationButton, "animation", "change");
+});
+
+//End animation example
+
 // trigger function
 function trigger(triggeredEl, triggerButton, className, action) {
   const triggeredElement = document.querySelector(triggeredEl);

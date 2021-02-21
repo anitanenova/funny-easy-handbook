@@ -17,9 +17,11 @@ article {
   align-items: center;
 }
 
+h3 {
+  margin-bottom: 0;
+}
+
 img {
-  width: 100%;
-  height: 100%;
   max-width: 100px;
   max-height: 100px;
 }
@@ -88,4 +90,17 @@ button:hover {
   .page-content-wrapper {
     width: 1200px;
   }
+}
+
+.border-horizontal {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
