@@ -1,0 +1,119 @@
+/* styles for translate box --start */
+
+.translate {
+  transform: translate(20px, 20px);
+}
+
+.translated-box {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* translate-x */
+.translate-x {
+  transform: translateX(20px);
+}
+
+.translated-x-box {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* translate-y */
+.translate-y {
+  transform: translateY(20px);
+}
+
+.translated-y-box {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* styles for translate box -- end */
+
+/* styles for scale box --start */
+
+.scale {
+  transform: scale(0.5);
+}
+
+.scaled-box {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* scale-x */
+.scale-x {
+  transform: scaleX(0.5);
+}
+
+.scaled-x-box {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* scale-y */
+.scale-y {
+  transform: scaleY(0.5);
+}
+
+.scaled-y-box {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* styles for scale box -- end */
+
+/* styles for rotate box --start */
+
+/* rotate to the right */
+.rotate-right {
+  transform: rotate(40deg);
+}
+
+.rotated-right-box {
+  transition: transform 0.2s ease-in;
+}
+
+/* rotate to the left */
+.rotate-left {
+  transform: rotate(-40deg);
+}
+
+.rotated-left-box {
+  transition: transform 0.2s ease-in;
+}
+
+/* rotate to the 180 degrees */
+.rotate-half {
+  transform: rotate(180deg);
+}
+
+.rotated-half-box {
+  transition: transform 0.8s ease-in;
+}
+/* styles for rotate box -- end */
+
+/* styles for skew box --start */
+
+.skew {
+  transform: skew(15deg, 15deg);
+}
+
+.skewed-box {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* skew-x */
+.skew-x {
+  transform: skewX(15deg);
+}
+
+.skewed-x-box {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* skew-y */
+.skew-y {
+  transform: skewY(15deg);
+}
+
+.skewed-y-box {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* styles for skew box -- end */
